@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/objectListFragment">
+
+    <fragment
+        android:id="@+id/objectListFragment"
+        android:name="com.saal.androidtest.ui.fragment.ObjectListFragment"
+        android:label="@string/object_list">
+        <action
+            android:id="@+id/action_objectListFragment_to_addObjectFragment"
+            app:destination="@id/addObjectFragment"
+            app:popUpTo="@id/objectListFragment" />
+        <action
+            android:id="@+id/action_objectListFragment_to_editObjectFragment"
+            app:destination="@id/editObjectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addObjectFragment"
+        android:name="com.saal.androidtest.ui.fragment.AddObjectFragment"
+        android:label="@string/add_object">
+        <action
+            android:id="@+id/action_addObjectFragment_to_objectSelectionFragment"
+            app:destination="@id/objectSelectionFragment"
+            app:popUpTo="@id/addObjectFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editObjectFragment"
+        android:name="com.saal.androidtest.ui.fragment.EditObjectFragment"
+        android:label="@string/edit_object">
+        <argument
+            android:name="objectModel"
+            app:argType="com.saal.androidtest.domain.model.ObjectModel" />
+        <action
+            android:id="@+id/action_editObjectFragment_to_objectSelectionFragment"
+            app:destination="@id/objectSelectionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/objectSelectionFragment"
+        android:name="com.saal.androidtest.ui.fragment.ObjectSelectionFragment"
+        android:label="Select Object" />
+
+</navigation>

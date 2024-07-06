@@ -1,0 +1,73 @@
+saal.androidtest.install_instructions
+
+Step 1: Install Required Software
+Install Java Development Kit (JDK):
+
+Download the JDK from the Oracle website or AdoptOpenJDK.
+Follow the installation instructions on the website to install JDK.
+Install Android Studio:
+
+Download Android Studio from the official website.
+Run the installer and follow the instructions to install Android Studio on your computer.
+Step 2: Set Up Android Studio
+Open Android Studio:
+
+Launch Android Studio from your Start menu or Applications folder.
+Configure Android Studio (First-Time Setup):
+
+On the welcome screen, click on "Configure" at the bottom right corner, then click on "SDK Manager."
+Ensure that the Android SDK is installed. Select the SDK platforms you need (the latest version is recommended).
+Click "Apply" and "OK."
+Step 3: Prepare the Project
+Unzip the Source Code:
+
+Locate the zip file containing the source code of the Android app.
+Extract the contents of the zip file to a directory of your choice.
+Open the Project in Android Studio:
+
+On the Android Studio welcome screen, click on "Open an existing project."
+Navigate to the directory where you extracted the source code, select the project folder, and click "OK."
+Wait for Gradle to Sync:
+
+Android Studio will automatically start syncing the project with Gradle. This process might take a few minutes.
+If prompted to "Upgrade Gradle Plugin" or "Update SDK," follow the on-screen instructions to update the required components.
+Step 4: Set Up an Emulator or Connect a Device
+Option 1: Using an Emulator
+
+Create a New Virtual Device:
+
+Click on "AVD Manager" (Android Virtual Device) in the toolbar or go to "Tools" > "AVD Manager."
+Click on "Create Virtual Device."
+Select a device model (e.g., Pixel 3) and click "Next."
+Select a system image (e.g., the latest API level with Google Play services) and click "Next."
+Click "Finish" to create the virtual device.
+Launch the Emulator:
+
+In the AVD Manager, click on the "Play" button next to the newly created virtual device to start the emulator.
+Option 2: Using a Physical Device
+
+Enable Developer Options on Your Device:
+
+Go to "Settings" > "About phone" on your Android device.
+Tap "Build number" seven times to enable developer options.
+Enable USB Debugging:
+
+Go to "Settings" > "System" > "Developer options."
+Toggle "USB debugging" to enable it.
+Connect Your Device to Your Computer:
+
+Use a USB cable to connect your Android device to your computer.
+On your device, select "File Transfer" mode if prompted.
+Step 5: Build and Run the Application
+Select the Run Configuration:
+
+In Android Studio, make sure the project configuration is set correctly. This is usually done automatically.
+Ensure your virtual device or physical device is selected in the device dropdown menu at the top of Android Studio.
+Run the Application:
+
+Click on the "Run" button (green arrow) in the toolbar or press Shift + F10.
+Android Studio will build the project and install the app on the selected device.
+Wait for the Application to Launch:
+
+The application will be built and deployed to the emulator or connected device.
+Once the installation is complete, the application should launch automatically.

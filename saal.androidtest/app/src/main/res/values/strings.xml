@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Object Manager</string>
+    <string name="error_add_relation_same_object">Cannot create a relation to the same object.</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_object_not_found">Object not found.</string>
+    <string name="error_add_relation_exists">Relation already exists</string>
+    <string name="add_object">Add Object</string>
+    <string name="edit_object">Edit Object</string>
+    <string name="object_list">Object List</string>
+    <string name="select_object">Select Object</string>
+    <string name="description">Description</string>
+    <string name="type">Type</string>
+    <string name="name">Name</string>
+    <string name="search">Search</string>
+    <string name="no_list_entries_to_display">There are no %s to display.</string>
+    <string name="objects">Objects</string>
+    <string name="relations">Relations</string>
+    <string name="add_relation">Add relation</string>
+    <string name="delete_confirmation">Delete Confirmation</string>
+    <string name="are_you_sure_delete">Are you sure you want to delete this object?</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes_delete">Yes, delete</string>
+</resources>

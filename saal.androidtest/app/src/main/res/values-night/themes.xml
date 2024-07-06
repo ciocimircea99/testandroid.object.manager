@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AndroidTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryDark">@color/red_700</item>
+        <!-- Customize your theme here. -->
+
+        <!-- Customize color of the Floating Action Button (FAB) -->
+        <item name="colorOnPrimary">@color/white
+        </item> <!-- Text/icon color on top of colorPrimary -->
+        <item name="colorPrimaryVariant">@color/red_500</item> <!-- Variant of colorPrimary -->
+
+        <!-- Customize colors for buttons -->
+        <item name="colorSecondary">@color/red_500</item> <!-- Secondary brand color -->
+        <item name="colorOnSecondary">@color/white
+        </item> <!-- Text/icon color on top of colorSecondary -->
+
+        <!-- Customize colors for text inputs -->
+        <item name="colorOnSurface">@color/gray_200
+        </item> <!-- Text/icon color on top of surfaces (cards, dialogs, etc.) -->
+        <item name="colorSurface">@color/white</item> <!-- Background color of surfaces -->
+    </style>
+
+    <style name="Theme.AndroidTest.Text.Default" parent="MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?colorOnSurface</item>
+        <item name="android:fontFamily">@font/urbanist_regular</item>
+    </style>
+
+    <style name="Theme.AndroidTest.Text.Default.Bold" parent="Theme.AndroidTest.Text.Default">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.AndroidTest.Text.Small" parent="Theme.AndroidTest.Text.Default">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Theme.AndroidTest.Text.Small.Bold" parent="Theme.AndroidTest.Text.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.AndroidTest.Text.Large" parent="Theme.AndroidTest.Text.Default">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Theme.AndroidTest.Text.Large.Bold" parent="Theme.AndroidTest.Text.Large">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.AndroidTest.Text.XLarge" parent="Theme.AndroidTest.Text.Default">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Theme.AndroidTest.Text.XLarge.Bold" parent="Theme.AndroidTest.Text.XLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
